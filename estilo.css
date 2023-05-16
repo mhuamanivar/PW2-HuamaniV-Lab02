@@ -1,0 +1,22 @@
+body {
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    height:40px;
+    background:#fff;
+    border:1px solid #dfe1e5;
+    border-radius:10px;
+    padding: 0px 20px 0px;
+}
+
+button {
+    border: 0px;
+    border-radius:5px;
+    margin: 25px;
+    width: auto;
+    height: 30px;
+    background-color: #f8f8f8;
+}
