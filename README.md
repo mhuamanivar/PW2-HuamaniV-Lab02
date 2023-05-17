@@ -44,8 +44,8 @@
       <tr>
         <td colspan="6" width="1000px">DOCENTES:
           <ul>
-            <li>Carlo Jose Luis Corrales Delgado</li>
-            <li>Anibal Sardon Paniagua</li>
+            <li>Carlo Jose Luis Corrales Delgado (Teoría)</li>
+            <li>Anibal Sardon Paniagua (Laboratorio)</li>
           </ul>
         </td>
       </tr>
@@ -84,10 +84,13 @@
               </ul>
             </li>
           </ol>
-          II. SOLUCIÓN DE EJERCICIOS/PROBLEMAS
+          II. SOLUCIÓN DE EJERCICIOS/PROBLEMAS PROPUESTOS
           <ol>
             <li>Ejercicio 01: Escriba una función que reciba el número de día de la fecha actual new Date() - https://www.w3schools.com/jsref/jsref_obj_date.asp y devuelva el texto del día de la semana correspondientes. Por ejemplo si recibe 0, devolvería “Domingo”.
               <ul>
+                <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
+                  <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio01_c.png?raw=true" style="width:90%;"/><br/><br/>
+                </li>
                 <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio01_a.png?raw=true" style="width:90%;"/><br/><br/>
                 </li>
@@ -181,7 +184,7 @@
         </td>
       </tr>
       <tr>
-        <td>II. SOLUCIÓN DEL CUESTIONARIO<br />
+        <td>II. SOLUCIÓN DEL CUESTIONARIO
           <ol>
             <li>Pruebe este código de arrayGenerator() en la página https://jslint.com/
               <ul>
