@@ -87,7 +87,7 @@
           <br/>
           <br/>
           <b>II. SOLUCIÓN DE EJERCICIOS/PROBLEMAS PROPUESTOS</b><br/><br/>
-          Todas las capturas fueron tomadas el día miércoles 17 de mayo del 2023, por lo que los scripts y páginas que se muestran en las imágenes están de acuerdo a esa fecha. Además, todas las páginas utilizan una misma hoja de estilo creada (y guardada también en el repositorio), así también, todas tienen una estructura, con el título (número de ejercicio), nombre, enunciado del ejercicio, los datos requeridos y su resultado. En este informe se explica sobretodo la ejecución de las páginas, por lo que se recuerda que la explicacion del código se encuentra en el video del ejercicio 06, y de manera extra también se encuentra otro video donde se muestra su ejecución en las páginas en audio (tambien en el ejercicio 06). Por otro lado, todo el código que se ha realizado en este laboratorio, junto al informe que se encuentra en el README.md, se encuentra en la página del repositorio GitHub: https://github.com/mhuamanivar/PW2-HuamaniV-Lab02 , y el ".git" es: https://github.com/mhuamanivar/PW2-HuamaniV-Lab02.git . <br/><br/>
+          Todas las capturas fueron tomadas el día miércoles 17 de mayo del 2023, por lo que los scripts y páginas que se muestran en las imágenes están de acuerdo a esa fecha. Además, todas las páginas utilizan una misma hoja de estilo creada (y guardada también en el repositorio), así también, todas tienen una estructura, con el título (número de ejercicio), nombre, enunciado del ejercicio, los datos requeridos y su resultado. En este informe se explica sobretodo la ejecución de las páginas, por lo que se recuerda que la explicacion del código se encuentra en el video del ejercicio 06, y de manera extra también se encuentra otro video explicando en audio la ejecución de las páginas (también en el ejercicio 06). Por otro lado, todo el código que se ha realizado en este laboratorio, junto al informe que se encuentra en el README.md, se encuentra en la página del repositorio GitHub: https://github.com/mhuamanivar/PW2-HuamaniV-Lab02 , y el ".git" es: https://github.com/mhuamanivar/PW2-HuamaniV-Lab02.git . <br/><br/>
           <ol>
             <li><b>Ejercicio 01: Escriba una función que reciba el número de día de la fecha actual new Date() - https://www.w3schools.com/jsref/jsref_obj_date.asp y devuelva el texto del día de la semana correspondientes. Por ejemplo si recibe 0, devolvería “Domingo”.</b><br/><br/>
               <ul>
@@ -123,23 +123,23 @@
             </li>
             <li><b>Ejercicio 03: Escribir una página que muestre cuántos días faltan para el día de Arequipa.</b><br/><br/>
               <ul>
-                <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
+                <li>En este ejercicio nos pide crear una página que muestre cuantos días faltan para el día de Arequipa, el cual es el 15 de Agosto, así que en el código obtenemos la fecha actual con "new Date()" y creamos otra fecha colocando la fecha de Arequipa, luego se restan el tiempo de las fechas (obtenido en milisegundos) y se transforma en días. Como la captura fue tomado el día Miércoles 17 de Mayo, entonces faltan 90 días exactos para el día de Arequipa.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio03.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
               </ul>
             </li>
             <li><b>Ejercicio 04: Escribir un página que reciba el URL de la sesión de google meet de hoy y devuelva el código de la sesión sin guiones separadores.</b><br/><br/>
               <ul>
-                <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
+                <li>Abrimos la página del Ejercicio 04 y obtenemos nuestros datos y la información que requiere en el input, en este caso, pide ingresar un link de Meet.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio04_a.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Se ejecuta el código en la consola, y así como se predijo, es un arreglo de 9 elementos, en donde hay números 3 y 4, y estos se encuentran en el rango de 2 a 5, como se puso en las líneas de cófigo para probar la función, por lo que esta funciona correctamente.<br/><br/>
+                <li>Se ingresa el link del meet para que obtengamos el código del Meet, tal y como lo pide el ejercicio. En este caso se ingreso:  "https://meet.google.com/nvz-wpne-ezr".<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio04_b.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
+                <li>Al hacer click en el botón "Obtener código", aparece solamente el código del link de Meet, y sin los guiones separadores, obteniendo el resultado correcto: "nvzwpneezr".<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio04_c.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Se ejecuta el código en la consola, y así como se predijo, es un arreglo de 9 elementos, en donde hay números 3 y 4, y estos se encuentran en el rango de 2 a 5, como se puso en las líneas de cófigo para probar la función, por lo que esta funciona correctamente.<br/><br/>
+                <li>Probamos nuevamente colocando otro link de meet "https://meet.google.com/xdi-fson-sgy", y presionamos por segunda vez el botón "Obtener código" para que se actualice la salida con el nuevo código del link ingresado, lo que obtiene "xdifsonsgy".<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio04_d.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
               </ul>
