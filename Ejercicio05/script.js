@@ -3,6 +3,7 @@
 
 document.getElementById("formTabla").addEventListener("submit", function(event) {
     document.getElementById("divTabla").style.display = "block";
+    document.getElementById("divSuma").style.display = "none";
 
     event.preventDefault();
     let cNumeros = parseInt(document.getElementById("cantNumeros").value);
