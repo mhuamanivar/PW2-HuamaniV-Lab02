@@ -87,7 +87,7 @@
           <br/>
           <br/>
           <b>II. SOLUCIÓN DE EJERCICIOS/PROBLEMAS PROPUESTOS</b><br/><br/>
-          Todas las capturas fueron tomadas el día miércoles 17 de mayo del 2023, por lo que los scripts y páginas que se muestran en las imágenes están de acuerdo a esa fecha. Además, todas las páginas utilizan una misma hoja de estilo creada y guardada también en el repositorio, así también todas tienen una misma estructura, con el título (número de ejercicio), nombre, enunciado del ejercicio, los datos requeridos y su resultado. Por otro lado, todo el código que se ha realizado en este laboratorio, junto al informe que se encuentra en el README.md, se encuentra en la página del repositorio GitHub: https://github.com/mhuamanivar/PW2-HuamaniV-Lab02 , y el ".git" es: https://github.com/mhuamanivar/PW2-HuamaniV-Lab02.git . <br/><br/>
+          Todas las capturas fueron tomadas el día miércoles 17 de mayo del 2023, por lo que los scripts y páginas que se muestran en las imágenes están de acuerdo a esa fecha. Además, todas las páginas utilizan una misma hoja de estilo creada (y guardada también en el repositorio), así también, todas tienen una estructura, con el título (número de ejercicio), nombre, enunciado del ejercicio, los datos requeridos y su resultado. En este informe se explica sobretodo la ejecución de las páginas, por lo que se recuerda que la explicacion del código se encuentra en el video del ejercicio 06, y de manera extra también se encuentra otro video donde se muestra su ejecución en las páginas en audio (tambien en el ejercicio 06). Por otro lado, todo el código que se ha realizado en este laboratorio, junto al informe que se encuentra en el README.md, se encuentra en la página del repositorio GitHub: https://github.com/mhuamanivar/PW2-HuamaniV-Lab02 , y el ".git" es: https://github.com/mhuamanivar/PW2-HuamaniV-Lab02.git . <br/><br/>
           <ol>
             <li><b>Ejercicio 01: Escriba una función que reciba el número de día de la fecha actual new Date() - https://www.w3schools.com/jsref/jsref_obj_date.asp y devuelva el texto del día de la semana correspondientes. Por ejemplo si recibe 0, devolvería “Domingo”.</b><br/><br/>
               <ul>
@@ -104,19 +104,19 @@
             </li>
             <li><b>Ejercicio 02: Escriba una página web que reciba un texto y al presionar un botón muestre el mismo texto invertido en otra sección (div). Por ejemplo si se escribe “Hola”, se mostraría como “aloH”.</b><br/><br/>
               <ul>
-                <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
+                <li>Comenzamos cargando la página creada, en la cual una vez cargada pide ingresar el texto que se quiera invertir.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio02_a.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Se ejecuta el código en la consola, y así como se predijo, es un arreglo de 9 elementos, en donde hay números 3 y 4, y estos se encuentran en el rango de 2 a 5, como se puso en las líneas de cófigo para probar la función, por lo que esta funciona correctamente.<br/><br/>
+                <li>Ahora ingresamos el texto que deseamos invertir, en este caso, se siguió el ejemplo del enunciado y se coloca "Hola".<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio02_b.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
+                <li>Hacemos click en el botón "Invertir" y aparece el resultado "aloH", junto con su subtítulo "Texto al revés" que antes no era visible.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio02_c.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Se ejecuta el código en la consola, y así como se predijo, es un arreglo de 9 elementos, en donde hay números 3 y 4, y estos se encuentran en el rango de 2 a 5, como se puso en las líneas de cófigo para probar la función, por lo que esta funciona correctamente.<br/><br/>
+                <li>Se puede probar con otro texto para comprobar nuevamente la funcionalidad de la página y colocamos "Maria vendio una sandia".<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio02_d.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Se ejecuta el código en la consola, y así como se predijo, es un arreglo de 9 elementos, en donde hay números 3 y 4, y estos se encuentran en el rango de 2 a 5, como se puso en las líneas de cófigo para probar la función, por lo que esta funciona correctamente.<br/><br/>
+                <li>Hacemos nuevamente click al botón "Invertir" y aparece el resultado correcto "aidnas anu oidnev airaM".<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio02_e.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
               </ul>
