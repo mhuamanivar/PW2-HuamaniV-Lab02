@@ -62,11 +62,16 @@
       <tr>
         <td>I. SOLUCIÓN DE EJERCICIOS/PROBLEMAS<br/>
           <ol>
-            <li>Ejercicio 01: Escriba una función que reciba el número de día de la fecha actual new Date() - https://www.w3schools.com/jsref/jsref_obj_date.asp y devuelva el texto del día de la semana correspondientes. Por ejemplo si recibe 0, devolvería “Domingo”.</li>
-            <li>Ejercicio 02: Escriba una página web que reciba un texto y al presionar un botón muestre el mismo texto invertido en otra sección (div). Por ejemplo si se escribe “Hola”, se mostraría como “aloH”.</li>
-            <li>Ejercicio 03: Escribir una página que muestre cuántos días faltan para el día de Arequipa!</li>
-            <li>Ejercicio 04: Escribir un página que reciba el URL de la sesión de google meet de hoy y devuelva el código de la sesión sin guiones separadores</li>
-            <li>Ejercicio 05: Escribir una página que permita calcular las suma de todos los valores de una tabla de valores dinámica. La idea es crear una página web con un formulario que te permita decir cuantos valores tendrá la tabla, luego, al enviar el formulario la tabla se debe crear dinámicamente, junto con otro botón de envió para calcular la suma.</li>
+            <li>Ejercicio 01: Escriba una función que reciba el número de día de la fecha actual new Date() - https://www.w3schools.com/jsref/jsref_obj_date.asp y devuelva el texto del día de la semana correspondientes. Por ejemplo si recibe 0, devolvería “Domingo”.
+            </li>
+            <li>Ejercicio 02: Escriba una página web que reciba un texto y al presionar un botón muestre el mismo texto invertido en otra sección (div). Por ejemplo si se escribe “Hola”, se mostraría como “aloH”.
+            </li>
+            <li>Ejercicio 03: Escribir una página que muestre cuántos días faltan para el día de Arequipa!
+            </li>
+            <li>Ejercicio 04: Escribir un página que reciba el URL de la sesión de google meet de hoy y devuelva el código de la sesión sin guiones separadores
+            </li>
+            <li>Ejercicio 05: Escribir una página que permita calcular las suma de todos los valores de una tabla de valores dinámica. La idea es crear una página web con un formulario que te permita decir cuantos valores tendrá la tabla, luego, al enviar el formulario la tabla se debe crear dinámicamente, junto con otro botón de envió para calcular la suma.
+            </li>
             <li>Ejercicio 06: Utilice la herramienta flipgrid - https://info.flipgrid.com/ envie un video en el tema "Presentacion y ejemplo deJavaScript" ponga aquí los enlaces de sus envíos.
               <ul>
                 <li>Link del video en flipgrid, explicando el código de los cinco ejercicios propuestos, los html, los scripts y la hoja de estilo css: https://flip.com/s/KTfBqB9guX6m</li>
@@ -78,8 +83,19 @@
       </tr>
       <tr>
         <td>II. SOLUCIÓN DEL CUESTIONARIO<br />
-          <ul>
-            <li>Pruebe este código de arrayGenerator() en la página https://jslint.com/<br>
+          <ol>
+            <li>Pruebe este código de arrayGenerator() en la página https://jslint.com/
+              <ul>
+                <li>Para probar el código de arrayGenerator(), es necesario ejecutarlo en el editor de JSLint, el cual nos manda dos errores principales, el "unexpected let" y el "unexpected for". Esto ocurre porque se necesitan habilitar ciertas funcionalidades del lenguaje JavaScript, lo cual se verá en el siguiente punto.<br><br>
+                  <img  src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/cuestionario01_c.png?raw=true" style="width:90%; height:auto"/><br><br>
+                </li>
+                <li>Aquí se puede ver la lista de instrucciones que podemos escribir en el editor de JSLint para habilitar funcionalidades como el "for" u otros que nos sirven para ejecutar adecuadamente el código (también se pueden activar en la tabla de opciones del JSLint). Estas y más funcionalidades se pueden encontrar en el siguiente link proporcionado por su página oficial: https://github.com/jslint-org/jslint#directive-jslint<br><br>
+                  <img  src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/cuestionario01_b.png?raw=true" style="width:90%; height:auto"/><br><br>
+                </li>
+                <li>Sin embargo, si no ponemos ninguna instrucción, es decir, no habilitamos ningunas de sus funcionalidades, entonces por defecto tendríamos que utilizar el siguiente código de la función, en el cual cambiamos el "for" por el "while" y la variable de control la definimos antres del bucle, así como vamos aumentandola de la manera "j = j + 1".<br><br>
+                  <img  src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/cuestionario01_a.png?raw=true" style="width:90%; height:auto"/><br><br>
+                </li>
+              </ul>
             </li>
             <li>Revisar esta discusión en stackoverflow - https://stackoverflow.com/questions/4852017/how-to-initialize-an-arrays-length-in-javascript<br>
               <ul>
@@ -87,7 +103,7 @@
                 <li>¿Se puede modificar la solución usando map? ¿Cómo?</li>
               </ul>
             </li>
-          </ul>
+          </ol>
         </td>
       </tr>
       <tr>
@@ -116,15 +132,17 @@
       <tr><th>REFERENCIAS Y BIBLIOGRAFÍA</th></tr>
     </theader>
     <tbody>
-      <tr><td width="1000px">
-        <ul>
-          <li><a href="xd">xd</a></li>
-          <li><a href="xd">xd</a></li>
-          <li><a href="xd">xd</a></li>
-          <li><a href="xd">xd</a></li>
-        </ul>
+      <tr>
+        <td width="1000px">
+          <ul>
+            <li>https://github.com/jslint-org/jslint#directive-jslint</li>
+            <li>https://www.jslint.com/</li>
+            <li>https://github.com/rescobedoq/pw2/tree/main/labs/lab02</li>
+            <li>https://stackoverflow.com/questions/4852017/how-to-initialize-an-arrays-length-in-javascript</li>
+          </ul>
         </td>
       </tr>
     </tbody>
   </table>
 </div>
+
