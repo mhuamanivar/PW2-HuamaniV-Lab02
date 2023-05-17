@@ -61,9 +61,9 @@
     <tbody>
       <tr>
         <td>
-          I. EJERCICIOS RESUELTOS
+          <b>I. EJERCICIOS RESUELTOS</b><br/><br/>
           <ol>
-            <li>Escriba la función arrayGenerator que reciba tres enteros positivos: n, min y max, con min < max y devuelva un arreglo de n números enteros positivos entre los valores dados (incluyendo min, pero no max). Para la generación de números aleatorios use Math.random().
+            <li><b>Escriba la función arrayGenerator que reciba tres enteros positivos: n, min y max, con min < max y devuelva un arreglo de n números enteros positivos entre los valores dados (incluyendo min, pero no max). Para la generación de números aleatorios use Math.random().</b><br/><br/>
               <ul>
                 <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicioResuelto1_a.png?raw=true" style="width:60%;"/><br/><br/>
@@ -73,7 +73,7 @@
                 </li>
               </ul>
             </li>
-            <li>Escriba la función voteCounting; que reciba un arreglo votes, conteniendo los votos para varios candidatos considerando un número para cada candidato, y devuelva un objeto con el número que identifica al candidato ganador y los votos que este obtuvo.
+            <li><b>Escriba la función voteCounting; que reciba un arreglo votes, conteniendo los votos para varios candidatos considerando un número para cada candidato, y devuelva un objeto con el número que identifica al candidato ganador y los votos que este obtuvo.</b><br/><br/>
               <ul>
                 <li>Escribimos el código dado por el ejercicio resuelto 2 de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "votesCounting(votes)", en este caso colocamos a los "candidatos" como números y luego se busca imprimir cual es el candidato más votado y cuantos votos obtuvo.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicioResuelto2_a.png?raw=true" style="width:55%;"/><br/><br/>
@@ -84,9 +84,12 @@
               </ul>
             </li>
           </ol>
-          II. SOLUCIÓN DE EJERCICIOS/PROBLEMAS PROPUESTOS
+          <br/>
+          <br/>
+          <b>II. SOLUCIÓN DE EJERCICIOS/PROBLEMAS PROPUESTOS</b><br/><br/>
+          Todas las capturas fueron tomadas el día miércoles 17 de mayo del 2023, por lo que los scripts y páginas que se muestran en las imágenes están de acuerdo a esa fecha. Por otro lado, todo el código que se ha realizado en este laboratorio, junto al informe que se encuentra en el README.md, se encuentra en la página del repositorio GitHub: https://github.com/mhuamanivar/PW2-HuamaniV-Lab02 , y el ".git" es: https://github.com/mhuamanivar/PW2-HuamaniV-Lab02.git . <br/><br/>
           <ol>
-            <li>Ejercicio 01: Escriba una función que reciba el número de día de la fecha actual new Date() - https://www.w3schools.com/jsref/jsref_obj_date.asp y devuelva el texto del día de la semana correspondientes. Por ejemplo si recibe 0, devolvería “Domingo”.
+            <li><b>Ejercicio 01: Escriba una función que reciba el número de día de la fecha actual new Date() - https://www.w3schools.com/jsref/jsref_obj_date.asp y devuelva el texto del día de la semana correspondientes. Por ejemplo si recibe 0, devolvería “Domingo”.</b><br/><br/>
               <ul>
                 <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio01_c.png?raw=true" style="width:90%;"/><br/><br/>
@@ -99,7 +102,7 @@
                 </li>
               </ul>
             </li>
-            <li>Ejercicio 02: Escriba una página web que reciba un texto y al presionar un botón muestre el mismo texto invertido en otra sección (div). Por ejemplo si se escribe “Hola”, se mostraría como “aloH”.
+            <li><b>Ejercicio 02: Escriba una página web que reciba un texto y al presionar un botón muestre el mismo texto invertido en otra sección (div). Por ejemplo si se escribe “Hola”, se mostraría como “aloH”.</b><br/><br/>
               <ul>
                 <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio02_a.png?raw=true" style="width:100%;"/><br/><br/>
@@ -118,14 +121,14 @@
                 </li>
               </ul>
             </li>
-            <li>Ejercicio 03: Escribir una página que muestre cuántos días faltan para el día de Arequipa!
+            <li><b>Ejercicio 03: Escribir una página que muestre cuántos días faltan para el día de Arequipa.</b><br/><br/>
               <ul>
                 <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio03.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
               </ul>
             </li>
-            <li>Ejercicio 04: Escribir un página que reciba el URL de la sesión de google meet de hoy y devuelva el código de la sesión sin guiones separadores
+            <li><b>Ejercicio 04: Escribir un página que reciba el URL de la sesión de google meet de hoy y devuelva el código de la sesión sin guiones separadores.</b><br/><br/>
               <ul>
                 <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio04_a.png?raw=true" style="width:100%;"/><br/><br/>
@@ -141,7 +144,7 @@
                 </li>
               </ul>
             </li>
-            <li>Ejercicio 05: Escribir una página que permita calcular las suma de todos los valores de una tabla de valores dinámica. La idea es crear una página web con un formulario que te permita decir cuantos valores tendrá la tabla, luego, al enviar el formulario la tabla se debe crear dinámicamente, junto con otro botón de envió para calcular la suma.
+            <li><b>Ejercicio 05: Escribir una página que permita calcular las suma de todos los valores de una tabla de valores dinámica. La idea es crear una página web con un formulario que te permita decir cuantos valores tendrá la tabla, luego, al enviar el formulario la tabla se debe crear dinámicamente, junto con otro botón de envió para calcular la suma.</b><br/><br/>
               <ul>
                 <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio05_a.png?raw=true" style="width:100%;"/><br/><br/>
@@ -172,7 +175,7 @@
                 </li>
               </ul>
             </li>
-            <li>Ejercicio 06: Utilice la herramienta flipgrid - https://info.flipgrid.com/ envie un video en el tema "Presentacion y ejemplo deJavaScript" ponga aquí los enlaces de sus envíos.
+            <li><b>Ejercicio 06: Utilice la herramienta flipgrid - https://info.flipgrid.com/ envie un video en el tema "Presentacion y ejemplo deJavaScript" ponga aquí los enlaces de sus envíos.</b><br/><br/>
               <ul>
                 <li>Link del video en flipgrid, explicando el código de los cinco ejercicios propuestos, los html, los scripts y la hoja de estilo css: https://flip.com/s/KTfBqB9guX6m</li>
                 <li>Link del video en flipgrid, explicando la ejecución de los cinco ejercicios propuestos, se hacen pruebas de su funcionamiento en las páginas web: https://flip.com/s/61CWWt4yfYWL<br/><br/>
@@ -184,9 +187,9 @@
         </td>
       </tr>
       <tr>
-        <td>II. SOLUCIÓN DEL CUESTIONARIO
+        <td><b>II. SOLUCIÓN DEL CUESTIONARIO</b><br/><br/>
           <ol>
-            <li>Pruebe este código de arrayGenerator() en la página https://jslint.com/
+            <li><b>Pruebe este código de arrayGenerator() en la página https://jslint.com/</b><br/><br/>
               <ul>
                 <li>Para probar el código de arrayGenerator(), es necesario ejecutarlo en el editor de JSLint, el cual nos manda dos errores principales, el "unexpected let" y el "unexpected for". Esto ocurre porque se necesitan habilitar ciertas funcionalidades del lenguaje JavaScript, lo cual se verá en el siguiente punto.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/cuestionario01_c.png?raw=true" style="width:90%;"/><br/><br/>
@@ -199,17 +202,19 @@
                 </li>
               </ul>
             </li>
-            <li>Revisar esta discusión en stackoverflow - https://stackoverflow.com/questions/4852017/how-to-initialize-an-arrays-length-in-javascript<br>
+            <li><b>Revisar esta discusión en stackoverflow - https://stackoverflow.com/questions/4852017/how-to-initialize-an-arrays-length-in-javascript</b><br/><br/>
               <ul>
-                <li>¿Cómo se pueden resolver los warnings?</li>
-                <li>¿Se puede modificar la solución usando map? ¿Cómo?</li>
+                <li><b>¿Cómo se pueden resolver los warnings?</b><br/>
+                </li>
+                <li><b>¿Se puede modificar la solución usando map? ¿Cómo?</b><br/>
+                </li>
               </ul>
             </li>
           </ol>
         </td>
       </tr>
       <tr>
-        <td>III. CONCLUSIONES<br/>
+        <td><b>III. CONCLUSIONES</b><br/>
           ---------------------------------------------------
         </td>
       </tr>
