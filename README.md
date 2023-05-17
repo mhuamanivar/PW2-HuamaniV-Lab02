@@ -217,7 +217,12 @@
       </tr>
       <tr>
         <td><b>III. CONCLUSIONES</b><br/>
-          ---------------------------------------------------
+          <ul>
+            <li>En primer lugar, se aprendió como utilizar JavaScript con el uso de variables, el cual usualmente se utiliza el "let", pero también existe "var" y "const" que tienen diferentes funcionalidades, asimismo se aprendió a realizar funciones, a imprimir datos en consola o imprimir un documento html con el que se encuentre relacionado.</li>
+            <li>También se aprendió a como incluir el archivo JavaScript en un HTML para que este mediante formularios o acciones recurra al script y pueda ejecutar o cambiar parte de la estructura de la página, esto puede funcionar para que sea interactivo y más entendible.</li>
+            <li>Por otro lado, existe el JSLint el cual nos ayuda a ser más estrictos con nuestra forma de escribir código y utilizarlo de manera más enetendible para el sistema, debido a que se necesita mayor uso de métodos, y otras opciones para que el JSLint no lo detecte como error.</li>
+            <li>De manera general, se concluye que el JavaScript y su uso con HTML nos sirve para crear páginas web dinámicas e interactivas para el usuario, de tal manera que sea mejor comprensible. Además, si se incluye hojas de estilo como CSS, entonces también se tendrá una mejor presentación de las páginas web.</li>
+          </ul>
         </td>
       </tr>
     </tbody>
