@@ -45,6 +45,7 @@
         <td colspan="6" width="1000px">DOCENTES:
           <ul>
             <li>Carlo Jose Luis Corrales Delgado</li>
+            <li>Anibal Sardon Paniagua</li>
           </ul>
         </td>
       </tr>
@@ -66,7 +67,12 @@
             <li>Ejercicio 03: Escribir una página que muestre cuántos días faltan para el día de Arequipa!</li>
             <li>Ejercicio 04: Escribir un página que reciba el URL de la sesión de google meet de hoy y devuelva el código de la sesión sin guiones separadores</li>
             <li>Ejercicio 05: Escribir una página que permita calcular las suma de todos los valores de una tabla de valores dinámica. La idea es crear una página web con un formulario que te permita decir cuantos valores tendrá la tabla, luego, al enviar el formulario la tabla se debe crear dinámicamente, junto con otro botón de envió para calcular la suma.</li>
-            <li>Ejercicio 06: Utilice la herramienta flipgrid - https://info.flipgrid.com/ envie un video en el tema "Presentacion y ejemplo deJavaScript" ponga aquí los enlaces de sus envíos.</li>
+            <li>Ejercicio 06: Utilice la herramienta flipgrid - https://info.flipgrid.com/ envie un video en el tema "Presentacion y ejemplo deJavaScript" ponga aquí los enlaces de sus envíos.
+              <ul>
+                <li>Link del video en flipgrid, explicando el código de los cinco ejercicios propuestos, los html, los scripts y la hoja de estilo css: https://flip.com/s/KTfBqB9guX6m</li>
+                <li>Link del video en flipgrid, explicando la ejecución de los cinco ejercicios propuestos, se hacen pruebas de su funcionamiento en las páginas web: https://flip.com/s/61CWWt4yfYWL</li>
+              </ul>
+            </li>
           </ol>
         </td>
       </tr>
