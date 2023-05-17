@@ -146,31 +146,31 @@
             </li>
             <li><b>Ejercicio 05: Escribir una página que permita calcular las suma de todos los valores de una tabla de valores dinámica. La idea es crear una página web con un formulario que te permita decir cuantos valores tendrá la tabla, luego, al enviar el formulario la tabla se debe crear dinámicamente, junto con otro botón de envió para calcular la suma.</b><br/><br/>
               <ul>
-                <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
+                <li>Primero cargamos la página web del Ejercicio05, y se obtiene un subtítulo "Cantidad de valores:" y un input para ingresar la cantidad de valores que queremos ingresar, es decir la cantidad de números que se va a ingresar posteriormente.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio05_a.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Se ejecuta el código en la consola, y así como se predijo, es un arreglo de 9 elementos, en donde hay números 3 y 4, y estos se encuentran en el rango de 2 a 5, como se puso en las líneas de cófigo para probar la función, por lo que esta funciona correctamente.<br/><br/>
+                <li>En este ejemplo de ejecución ingresamos el número 3 en la celda, teniendo en cuenta que este es un input de tipo número. Entonces hacemos click en el botón "Crear tabla" y este botón mediante un formulario va a llamar al script que creará una tabla con la cantidad de celdas (filas) de acuerdo al número que se ha ingresado.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio05_b.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
+                <li>Esta nueva tabla con el título de "Números", también tienen celdas de input tipo número, por lo que directamente podemos ingresar el número o podemos hacer click en las flechitas que aparecen en el lado derecho del interior de las celdas, estas flechitas suben o bajan el número de uno en uno hasta obtener el que queremos.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio05_c.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Se ejecuta el código en la consola, y así como se predijo, es un arreglo de 9 elementos, en donde hay números 3 y 4, y estos se encuentran en el rango de 2 a 5, como se puso en las líneas de cófigo para probar la función, por lo que esta funciona correctamente.<br/><br/>
+                <li>En este caso se ingresó mediante las flechitas los números 4, 5 y 3, lo cual en el resultado de la suma debería obtener la suma de 4 + 5 + 3 = 12.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio05_d.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
+                <li>Luego se hace click en el botón "Calcular suma", la cual también mediante un formulario se ejecuta el script que recibe la información cuando ha ocurrido un "evento" en el botón. El script ayuda a sumar todos los valores de la última tabla creada, y tal como se predijo se obtiene de manera correcta el número 12.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio05_e.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Se ejecuta el código en la consola, y así como se predijo, es un arreglo de 9 elementos, en donde hay números 3 y 4, y estos se encuentran en el rango de 2 a 5, como se puso en las líneas de cófigo para probar la función, por lo que esta funciona correctamente.<br/><br/>
+                <li>Si queremos crear una nueva tabla con diferente cantidad de números (filas), entonces debemos borrar la información del primer input y colocar esa nueva cantidad de filas. En este ejemplo, pusimos 2 como la nueva cantidad.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio05_f.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Escribimos el código dado por el ejercicio resuelto de la guía del laboratorio, escribimos las últimas dos líneas para probar la función "arrayGenerator()", la cual debería producir un arreglo de 9 elementos, con números del 2 al 5. Luego se pone la última línea para imprimir el arreglo en la consola.<br/><br/>
+                <li>Se puede observar que al hacer click en el botón "Crear tabla", se crea la nueva tabla correctamente con las dos filas para insertar nuevos números, y se borra la suma obtenida con anterioridad para tener una mejor visualización.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio05_g.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Se ejecuta el código en la consola, y así como se predijo, es un arreglo de 9 elementos, en donde hay números 3 y 4, y estos se encuentran en el rango de 2 a 5, como se puso en las líneas de cófigo para probar la función, por lo que esta funciona correctamente.<br/><br/>
+                <li>Para probar nuevamente el funcionamiento de las celdas y de la suma posteriormente, se coloca los números 9 y -4, lo que resultaría en su suma 9 + (-4) = 5.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio05_h.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
-                <li>Se ejecuta el código en la consola, y así como se predijo, es un arreglo de 9 elementos, en donde hay números 3 y 4, y estos se encuentran en el rango de 2 a 5, como se puso en las líneas de cófigo para probar la función, por lo que esta funciona correctamente.<br/><br/>
+                <li>Por último, se hace click en el botón de "Calcular suma" para que sume los nuevos valores y se obtiene el resultado correcto de 5. Por lo que se comprueba el funcionamiento de toda la página creada.<br/><br/>
                   <img src="https://github.com/mhuamanivar/PW2-HuamaniV-Lab02/blob/main/Imagenes/ejercicio05_i.png?raw=true" style="width:100%;"/><br/><br/>
                 </li>
               </ul>
