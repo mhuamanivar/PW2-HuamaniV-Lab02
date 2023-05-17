@@ -205,8 +205,10 @@
             <li><b>Revisar esta discusión en stackoverflow - https://stackoverflow.com/questions/4852017/how-to-initialize-an-arrays-length-in-javascript</b><br/><br/>
               <ul>
                 <li><b>¿Cómo se pueden resolver los warnings?</b><br/>
+                  Una manera de resolver los warnings, es colocando de otra manera lo que queremos usar en JSLint, por ejemplo, en esta discusión de stackoverflow, se utilizaron nuevos métodos como el Array.apply, el Array.from, el Array.fill, entre otros, debido a que el JSLint es más estricto y al colocar solamente "new Array(4)" es muy ambiguo, entonces mínimamente como se mencionó en unas de las respuestas de la discusión se debería colocar "new Array('4')" para crear un array de 4 elementos, sin embargo, se prefiere utilizar los primero métodos que se mencionaron para que el JSLint pueda iterar sobre ellas y no generar problemas a futuro.
                 </li>
                 <li><b>¿Se puede modificar la solución usando map? ¿Cómo?</b><br/>
+                  Si, como menciona la respuesta mas votada de la discusión, se puede colocar map para crear un array con valores indefinidos o con valores, por ejemplo, al utilizar "Array.apply(null, Array(n)).map(function () {})" la cual dsirve para crear un array con longitud tamaño "n" y con valores indefinidos, y al utilizar "Array.apply(null, Array(n)).map(function (x, i) { return i; })" crea una matriz también de tamaño "n" pero con valores desde 0 hasta "n-1". Ambos ejemplos funcionan para que el array pueda ser iterable, y el JSLint no lo detecte como un error ni al principio (al crear al array) o despúes (al querer usarlo o iterarlo).<br/><br/>
                 </li>
               </ul>
             </li>
